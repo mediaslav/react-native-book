@@ -16,8 +16,7 @@ Valid color formats are
   - 'red'
   - 0xff00ff00 (0xrrggbbaa)
 ```
-
-Flexbox Props 
+#### Flexbox style
 ```
 alignItems enum('flex-start', 'flex-end', 'center', 'stretch') 
 alignSelf enum('auto', 'flex-start', 'flex-end', 'center', 'stretch') 
@@ -61,4 +60,33 @@ right number
 top number 
 
 width number 
+```
+#### View styles:
+```
+Flexbox...
+ShadowPropTypesIOS#style...
+Transforms...
+backfaceVisibility enum('visible', 'hidden')
+backgroundColor color
+borderBottomColor color
+borderBottomLeftRadius number
+borderBottomRightRadius number
+borderBottomWidth number
+borderColor color
+borderLeftColor color
+borderLeftWidth number
+borderRadius number
+borderRightColor color
+borderRightWidth number
+borderStyle enum('solid', 'dotted', 'dashed')
+borderTopColor color
+borderTopLeftRadius number
+borderTopRightRadius number
+borderTopWidth number
+borderWidth number
+opacity number
+overflow enum('visible', 'hidden')
+[android] elevation number (Android-only) Sets the elevation of a view, using Android's underlying elevation API. 
+  This adds a drop shadow to the item and affects z-order for overlapping views. 
+  Only supported on Android 5.0+, has no effect on earlier versions.
 ```
