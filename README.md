@@ -90,3 +90,29 @@ overflow enum('visible', 'hidden')
   This adds a drop shadow to the item and affects z-order for overlapping views. 
   Only supported on Android 5.0+, has no effect on earlier versions.
 ```
+#### Text style
+```
+View#style...
+
+color color
+fontFamily string
+fontSize number
+fontStyle enum('normal', 'italic')
+fontWeight enum('normal', 'bold', '100', '200', '300', '400', '500', '600', '700', '800', '900')
+  Specifies font weight. The values 'normal' and 'bold' are supported for most fonts. 
+  Not all fonts have a variant for each of the numeric values, in that case the closest one is chosen.
+
+lineHeight number
+textAlign enum('auto', 'left', 'right', 'center', 'justify')
+  Specifies text alignment. The value 'justify' is only supported on iOS.
+
+textShadowColor color
+textShadowOffset {width: number, height: number}
+textShadowRadius number
+android textAlignVertical enum('auto', 'top', 'bottom', 'center')
+ios letterSpacing number
+ios textDecorationColor color
+ios textDecorationLine enum('none', 'underline', 'line-through', 'underline line-through')
+ios textDecorationStyle enum('solid', 'double', 'dotted', 'dashed')
+ios writingDirection enum('auto', 'ltr', 'rtl')
+```
