@@ -1,6 +1,9 @@
 # react-native-book
 
+Random stuff found in sources
+
 Valid color formats are
+```
   - '#f0f' (#rgb)
   - '#f0fc' (#rgba)
   - '#ff00ff' (#rrggbb)
@@ -12,3 +15,4 @@ Valid color formats are
   - 'transparent'
   - 'red'
   - 0xff00ff00 (0xrrggbbaa)
+```
